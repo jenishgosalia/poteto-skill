@@ -1,0 +1,14 @@
+{
+  "name": "pstack-claude",
+  "owner": {
+    "name": "jG"
+  },
+  "description": "Claude Code port of pstack: rigorous agent workflows with an all-Claude model panel.",
+  "plugins": [
+    {
+      "name": "pstack",
+      "source": "./pstack",
+      "description": "pstack ported to Claude Code: poteto-mode, principles, arena, interrogate, swarm, reflect, unslop. All-Claude model panel (haiku/sonnet/opus/fable)."
+    }
+  ]
+}
