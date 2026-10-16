@@ -1,12 +1,12 @@
-# pstack-claude
+# poteto-skill
 
 A Claude Code / claude.ai port of [pstack](https://github.com/cursor/plugins/tree/main/pstack) (MIT, Lauren Tan), pinned from cursor/plugins@2f83774.
 
 ## Install in Claude Code (all projects)
 
 ```
-claude plugin marketplace add <your-github-user>/pstack-claude
-claude plugin install pstack@pstack-claude --scope user
+claude plugin marketplace add jenishgosalia/poteto-skill
+claude plugin install pstack@poteto-skill --scope user
 cp rules/pstack-models.md ~/.claude/rules/pstack-models.md   # or run /pstack:setup-pstack
 ```
 
