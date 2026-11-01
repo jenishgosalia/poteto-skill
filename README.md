@@ -1,6 +1,6 @@
 # poteto-skill
 
-A Claude Code / claude.ai port of [pstack](https://github.com/cursor/plugins/tree/main/pstack) (MIT, Lauren Tan), pinned from cursor/plugins@2f83774.
+A Claude Code / claude.ai port of [pstack](https://github.com/cursor/plugins/tree/main/pstack) (MIT, Lauren Tan), pinned from cursor/plugins@ae5650f.
 
 ## Install in Claude Code (all projects)
 

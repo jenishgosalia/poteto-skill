@@ -8,7 +8,7 @@ def main(src, dst):
     src=pathlib.Path(src).resolve(); dst=pathlib.Path(dst).resolve()
     if dst.exists(): shutil.rmtree(dst)
     shutil.copytree(src, dst)
-    for junk in ['.cursor-plugin','automations','plugin.json','.gitignore']:
+    for junk in ['.cursor-plugin','automations','plugin.json','.gitignore','docs/harness']:  # docs/harness is upstream's run-time Cursor->Claude name map; this port rewrites the names instead
         p=dst/junk
         if p.is_dir(): shutil.rmtree(p)
         elif p.exists(): p.unlink()
